@@ -1,0 +1,543 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0bf66a3a-3c52-42d3-8768-266465cde180" name="Default Changelist" comment="高并发(多线程)编程">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/yao19.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_5_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_10_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_10_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_10_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_10_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_10_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_10_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_1_3_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_errorprone_error_prone_annotations_2_0_18.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_23_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_j2objc_j2objc_annotations_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_activation_jakarta_activation_api_1_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_annotation_jakarta_annotation_api_1_3_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_validation_jakarta_validation_api_2_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_xml_bind_jakarta_xml_bind_api_2_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__joda_time_joda_time_2_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_10_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_10_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_accessors_smart_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_json_smart_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_pool2_2_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_12_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_12_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_30.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_9_0_30.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_30.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_3_13_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_mojo_animal_sniffer_annotations_1_14.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_0_18_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_4_1_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_5_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_params_5_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_3_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_junit_jupiter_3_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_30.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_30.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_2_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_2_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_2_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_2_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_2_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_2_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_2_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_validation_2_2_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_2_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_2_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_2_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_2_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_2_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_2_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_2_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_2_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_2_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_2_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_2_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_2_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_6_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_25.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__redis_clients_jedis_2_9_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HELP.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/concurrency.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/concurrency/ConcurrencyApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/concurrency/ConcurrencyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/concurrency/HttpFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/concurrency/HttpInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/concurrency/annoations/NotRecommend.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/concurrency/annoations/NotThreadSafe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/concurrency/annoations/Recommend.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/concurrency/annoations/ThreadSafe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/concurrency/commonUnsafe/ArrayListExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/concurrency/commonUnsafe/DateFormatExample1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/concurrency/commonUnsafe/DateFormatExample2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/concurrency/commonUnsafe/DateFormatExample3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/concurrency/commonUnsafe/HashMapExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/concurrency/commonUnsafe/HashSetExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/concurrency/commonUnsafe/StringExample1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/concurrency/commonUnsafe/StringExample2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/concurrency/controller/TestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/concurrency/example/aqs/CountDownLatchExample1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/concurrency/example/aqs/CountDownLatchExample2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/concurrency/example/aqs/CyclicBarrierExample1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/concurrency/example/aqs/CyclicBarrierExample2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/concurrency/example/aqs/CyclicBarrierExample3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/concurrency/example/aqs/FutureExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/concurrency/example/aqs/FutureTaskExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/concurrency/example/aqs/SemaphoreExample1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/concurrency/example/aqs/SemaphoreExample2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/concurrency/example/aqs/SemaphoreExample3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/concurrency/example/aqs/SemaphoreExample4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/concurrency/example/atomic/AtomicExample1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/concurrency/example/atomic/AtomicExample2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/concurrency/example/atomic/AtomicExample3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/concurrency/example/atomic/AtomicExample4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/concurrency/example/atomic/AtomicExample5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/concurrency/example/atomic/AtomicExample6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/concurrency/example/cache/CacheController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/concurrency/example/cache/GuavaCacheExample1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/concurrency/example/cache/GuavaCacheExample2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/concurrency/example/cache/RedisClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/concurrency/example/cache/RedisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/concurrency/example/concurrent/ConcurrentHashMapExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/concurrency/example/concurrent/ConcurrentSkipListMapExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/concurrency/example/concurrent/ConcurrentSkipListSetExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/concurrency/example/concurrent/CopyOnWriteArrayListExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/concurrency/example/concurrent/CopyOnWriteArraySetExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/concurrency/example/count/CountExample1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/concurrency/example/count/CountExample2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/concurrency/example/count/CountExample3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/concurrency/example/deadLock/DeadLock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/concurrency/example/immutable/ImmutableExample1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/concurrency/example/immutable/ImmutableExample2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/concurrency/example/immutable/ImmutableExample3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/concurrency/example/lock/LockExample1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/concurrency/example/lock/LockExample2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/concurrency/example/lock/LockExample3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/concurrency/example/lock/LockExample4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/concurrency/example/publish/Escape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/concurrency/example/publish/UnsafePublish.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/concurrency/example/singleton/SingletonExample1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/concurrency/example/singleton/SingletonExample2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/concurrency/example/singleton/SingletonExample3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/concurrency/example/singleton/SingletonExample4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/concurrency/example/singleton/SingletonExample5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/concurrency/example/singleton/SingletonExample6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/concurrency/example/singleton/SingletonExample7.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/concurrency/example/singleton/SingletonExample8.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/concurrency/example/sync/SynchronizedExample1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/concurrency/example/sync/SynchronizedExample2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/concurrency/example/syncContainer/CollectionsExample1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/concurrency/example/syncContainer/CollectionsExample2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/concurrency/example/syncContainer/CollectionsExample3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/concurrency/example/syncContainer/HashTableExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/concurrency/example/syncContainer/VectorExample1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/concurrency/example/syncContainer/VectorExample2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/concurrency/example/syncContainer/VectorExample3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/concurrency/example/threadLocal/RequestHolder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/concurrency/example/threadLocal/ThreadLocalController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/concurrency/example/threadPool/ThreadPoolExample1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/concurrency/example/threadPool/ThreadPoolExample2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/concurrency/example/threadPool/ThreadPoolExample3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/concurrency/example/threadPool/ThreadPoolExample4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/concurrency/ConcurrencyApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/concurrency/test/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/concurrency/test/ThreadTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/concurrency/ConcurrencyApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/concurrency/ConcurrencyTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/concurrency/HttpFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/concurrency/HttpInterceptor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/concurrency/annoations/NotRecommend.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/concurrency/annoations/NotThreadSafe.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/concurrency/annoations/Recommend.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/concurrency/annoations/ThreadSafe.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/concurrency/commonUnsafe/ArrayListExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/concurrency/commonUnsafe/DateFormatExample1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/concurrency/commonUnsafe/DateFormatExample2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/concurrency/commonUnsafe/DateFormatExample3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/concurrency/commonUnsafe/HashMapExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/concurrency/commonUnsafe/HashSetExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/concurrency/commonUnsafe/StringExample1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/concurrency/commonUnsafe/StringExample2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/concurrency/controller/TestController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/concurrency/example/aqs/CountDownLatchExample1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/concurrency/example/aqs/CountDownLatchExample2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/concurrency/example/aqs/CyclicBarrierExample1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/concurrency/example/aqs/CyclicBarrierExample2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/concurrency/example/aqs/CyclicBarrierExample3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/concurrency/example/aqs/FutureExample$MyCallable.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/concurrency/example/aqs/FutureExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/concurrency/example/aqs/FutureTaskExample$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/concurrency/example/aqs/FutureTaskExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/concurrency/example/aqs/SemaphoreExample1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/concurrency/example/aqs/SemaphoreExample2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/concurrency/example/aqs/SemaphoreExample3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/concurrency/example/aqs/SemaphoreExample4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/concurrency/example/atomic/AtomicExample1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/concurrency/example/atomic/AtomicExample2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/concurrency/example/atomic/AtomicExample3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/concurrency/example/atomic/AtomicExample4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/concurrency/example/atomic/AtomicExample5.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/concurrency/example/atomic/AtomicExample6.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/concurrency/example/cache/CacheController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/concurrency/example/cache/GuavaCacheExample1$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/concurrency/example/cache/GuavaCacheExample1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/concurrency/example/cache/GuavaCacheExample2$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/concurrency/example/cache/GuavaCacheExample2$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/concurrency/example/cache/GuavaCacheExample2$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/concurrency/example/cache/GuavaCacheExample2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/concurrency/example/cache/RedisClient.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/concurrency/example/cache/RedisConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/concurrency/example/concurrent/ConcurrentHashMapExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/concurrency/example/concurrent/ConcurrentSkipListMapExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/concurrency/example/concurrent/ConcurrentSkipListSetExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/concurrency/example/concurrent/CopyOnWriteArrayListExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/concurrency/example/concurrent/CopyOnWriteArraySetExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/concurrency/example/count/CountExample1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/concurrency/example/count/CountExample2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/concurrency/example/count/CountExample3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/concurrency/example/deadLock/DeadLock.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/concurrency/example/immutable/ImmutableExample1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/concurrency/example/immutable/ImmutableExample2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/concurrency/example/immutable/ImmutableExample3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/concurrency/example/lock/LockExample1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/concurrency/example/lock/LockExample2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/concurrency/example/lock/LockExample3$Data.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/concurrency/example/lock/LockExample3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/concurrency/example/lock/LockExample4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/concurrency/example/publish/Escape$InnerClass.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/concurrency/example/publish/Escape.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/concurrency/example/publish/UnsafePublish.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/concurrency/example/singleton/SingletonExample1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/concurrency/example/singleton/SingletonExample2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/concurrency/example/singleton/SingletonExample3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/concurrency/example/singleton/SingletonExample4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/concurrency/example/singleton/SingletonExample5.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/concurrency/example/singleton/SingletonExample6.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/concurrency/example/singleton/SingletonExample7$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/concurrency/example/singleton/SingletonExample7$Singleton.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/concurrency/example/singleton/SingletonExample7.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/concurrency/example/singleton/SingletonExample8$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/concurrency/example/singleton/SingletonExample8$Singleton.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/concurrency/example/singleton/SingletonExample8.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/concurrency/example/sync/SynchronizedExample1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/concurrency/example/sync/SynchronizedExample2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/concurrency/example/syncContainer/CollectionsExample1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/concurrency/example/syncContainer/CollectionsExample2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/concurrency/example/syncContainer/CollectionsExample3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/concurrency/example/syncContainer/HashTableExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/concurrency/example/syncContainer/VectorExample1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/concurrency/example/syncContainer/VectorExample2$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/concurrency/example/syncContainer/VectorExample2$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/concurrency/example/syncContainer/VectorExample2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/concurrency/example/syncContainer/VectorExample3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/concurrency/example/threadLocal/RequestHolder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/concurrency/example/threadLocal/ThreadLocalController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/concurrency/example/threadPool/ThreadPoolExample1$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/concurrency/example/threadPool/ThreadPoolExample1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/concurrency/example/threadPool/ThreadPoolExample2$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/concurrency/example/threadPool/ThreadPoolExample2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/concurrency/example/threadPool/ThreadPoolExample3$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/concurrency/example/threadPool/ThreadPoolExample3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/concurrency/example/threadPool/ThreadPoolExample4$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/concurrency/example/threadPool/ThreadPoolExample4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/concurrency-0.0.1-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/concurrency-0.0.1-SNAPSHOT.jar.original" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.example.concurrency.ConcurrencyApplicationTests.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/com.example.concurrency.ConcurrencyApplicationTests.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/example/concurrency/ConcurrencyApplicationTests.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/example/concurrency/test/Test.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/example/concurrency/test/Test1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/example/concurrency/test/ThreadTest$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/example/concurrency/test/ThreadTest$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/example/concurrency/test/ThreadTest$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/example/concurrency/test/ThreadTest.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="AnnotationType" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\Program Files\apache-maven-3.6.3-bin\repository" />
+        <option name="userSettingsFile" value="D:\Program Files\apache-maven-3.6.3-bin\apache-maven-3.6.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1WvP6LsUQvL4ee5T6emHfhDjTlX" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.concurrency.example.cache" />
+      <recent name="com.example.concurrency.example.threadPool" />
+      <recent name="com.example.concurrency.example.lock" />
+      <recent name="com.example.concurrency.example.aqs" />
+      <recent name="com.example.concurrency.example.concurrent" />
+    </key>
+  </component>
+  <component name="RestServicesNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="Found 4 services " type="fcff1e1b:RestServiceStructure$RootNode" />
+        </path>
+        <path>
+          <item name="Found 4 services " type="fcff1e1b:RestServiceStructure$RootNode" />
+          <item name="concurrency" type="c588b436:RestServiceStructure$ProjectNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="RunManager" selected="Application.ConcurrencyApplication">
+    <configuration name="ConcurrencyApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.concurrency.ConcurrencyApplication" />
+      <module name="concurrency" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.concurrency.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GuavaCacheExample1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.concurrency.example.cache.GuavaCacheExample1" />
+      <module name="concurrency" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.concurrency.example.cache.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GuavaCacheExample2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.concurrency.example.cache.GuavaCacheExample2" />
+      <module name="concurrency" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.concurrency.example.cache.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ThreadPoolExample4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.concurrency.example.threadPool.ThreadPoolExample4" />
+      <module name="concurrency" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.concurrency.example.threadPool.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ThreadTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.concurrency.test.ThreadTest" />
+      <module name="concurrency" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.concurrency.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ConcurrencyApplication" />
+        <item itemvalue="Application.GuavaCacheExample2" />
+        <item itemvalue="Application.GuavaCacheExample1" />
+        <item itemvalue="Application.ThreadTest" />
+        <item itemvalue="Application.ThreadPoolExample4" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0bf66a3a-3c52-42d3-8768-266465cde180" name="Default Changelist" comment="" />
+      <created>1580026918144</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1580026918144</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="高并发(多线程)编程" />
+    <option name="LAST_COMMIT_MESSAGE" value="高并发(多线程)编程" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="223" y="68" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1580030455337">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="223" y="68" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1580030455337" />
+    <state x="574" y="129" key="#com.intellij.ide.util.MemberChooser" timestamp="1581074006149">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="574" y="129" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1581074006149" />
+    <state x="379" y="338" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1580871806727">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="379" y="338" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1536.824@0.0.1536.824" timestamp="1580871806727" />
+    <state x="299" y="0" key="CommitChangelistDialog2" timestamp="1581252068576">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="299" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1581252068576" />
+    <state x="549" y="168" key="FileChooserDialogImpl" timestamp="1581251820289">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="168" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1581251820289" />
+    <state width="1493" height="196" key="GridCell.Tab.0.bottom" timestamp="1581079751264">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="196" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1581079751264" />
+    <state width="1493" height="196" key="GridCell.Tab.0.center" timestamp="1581079751264">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="196" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1581079751264" />
+    <state width="1493" height="196" key="GridCell.Tab.0.left" timestamp="1581079751264">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="196" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1581079751264" />
+    <state width="1493" height="196" key="GridCell.Tab.0.right" timestamp="1581079751264">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="196" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1581079751264" />
+    <state width="1493" height="134" key="GridCell.Tab.1.bottom" timestamp="1580803478370">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="134" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1580803478370" />
+    <state width="1493" height="134" key="GridCell.Tab.1.center" timestamp="1580803478370">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="134" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1580803478370" />
+    <state width="1493" height="134" key="GridCell.Tab.1.left" timestamp="1580803478370">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="134" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1580803478370" />
+    <state width="1493" height="134" key="GridCell.Tab.1.right" timestamp="1580803478370">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="134" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1580803478370" />
+    <state x="299" y="68" key="Maven.ArtifactSearchDialog" timestamp="1580559361389">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="299" y="68" key="Maven.ArtifactSearchDialog/0.0.1536.824@0.0.1536.824" timestamp="1580559361389" />
+    <state x="270" y="55" key="SettingsEditor" timestamp="1581251800066">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="270" y="55" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1581251800066" />
+    <state x="490" y="154" width="543" height="524" key="StructurePopup" timestamp="1580801622028">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="490" y="154" width="543" height="524" key="StructurePopup/0.0.1536.824@0.0.1536.824" timestamp="1580801622028" />
+    <state x="499" y="166" key="extract.method.dialog" timestamp="1580198249830">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="499" y="166" key="extract.method.dialog/0.0.1536.824@0.0.1536.824" timestamp="1580198249830" />
+    <state x="178" y="46" key="new project wizard" timestamp="1581237113542">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="178" y="46" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1581237113542" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1580801610989">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1580801610989" />
+  </component>
+</project>
